@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="C:\Users\Admin\Desktop\web_development\css\cc1.css" type="text/css">
     <meta charset="UTF-8">
     <title>Project List</title>
 </head>
 <body>
     <header>
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="projects.html">Project List</a></li>
-            <li><a href="about.html">About Me</a></li>
+            <a href="home.html"><li>Home</li></a>
+            <a href="projects.html"><li>Project List</li></a>
+            <a href="about.html"><li>About Me</li></a>
         </ul>
     </header>
+    <div id="description">
+        <p>During my training at QA Consulting I completed a number of programs. The larger projects are listed below.</p>
+    </div>
+    <div class="projectList">
+        <ol>
+            <li><a href="">Records Storage Program</a> - Python</li>
+            <li><a href="https://github.com/ScaredTuna/Java-Week1" target="_blank">Barren Moor Text Adventure</a> - Java SE</li>
+            <li><a href="https://github.com/ScaredTuna/Java-Week2/tree/master/src/src" target="_blank">Battleships Game</a> - Java SE</li>
+        </ol>
+    </div>
+    <div class="projectDescription">
+        <h3>1. Records Storage Problem</h3>
+        <p>
+            This project was to create a program that would have a functioning menu system which asks for user input.
+            The menu needed to have options for entering records, viewing records and to exit the program. The viewing
+            records option then needed a sub menu to ask what type of records to view. In all cases the program needed
+            ask if the user wanted to continue with the same action once the user finishes.
+        </p>
+        <br>
+        <h3>2. Barren Moor Text Adventure</h3>
+        <p>
+            The purpose of this project was to create a simple text adventure game where the player had to navigate a
+            grid by entering north, east, west or south in order to find a hidden treasure. In order to guide the player
+             the distance to the treasure needed to be displayed before each move. The game also includes some events
+            and a monster whom the player must avoid.
+        </p>
+        <br>
+        <h3>3. Battleships Game</h3>
+        <p>
+            As the name implies, the Battleships project was to create a functioning game of battleships that can be
+            played against another player, or a computer. This required the ability for users to place ships on a grid,
+            with checks to ensure the placement was valid, and to take shots at the other players ships. The current state
+            of the project contains a working menu and ship placement system, but has yet to implement the shooting
+            mechanic or the computer opponent.
+        </p>
+    </div>
+    <footer>
+        <p>Contact me: jordan.mcrobert@qa.com</p>
+    </footer>
 </body>
 </html>

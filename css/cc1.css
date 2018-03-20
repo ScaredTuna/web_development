@@ -1,0 +1,71 @@
+header{
+    background-color: dodgerblue;
+    color: cornsilk;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    display: table;
+    font-size: x-large;
+}
+header ul{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+header a:visited{color: cornsilk}
+header li{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    width: 33.33333333%;
+    height: available;
+}
+header li:hover{
+    background-color: chocolate;
+    color: cornsilk;
+}
+header a:link{
+    color: cornsilk;
+    text-decoration: none;
+}
+body{
+    background-color: dimgray;
+    text-align: center;
+    color:cornsilk;
+}
+body a:visited{color: cornsilk}
+body a:link{
+    color: cornsilk;
+    text-decoration: underline;
+}
+body a:hover{color: orange}
+.projectList ol{
+    text-align: left;
+    padding-left: 43%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.projectList li{
+    padding-left: 15px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+.projectDescription{
+    margin-left:25%;
+    margin-right: 25%;
+}
+.about ul{
+    text-align: left;
+    padding-left: 47%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about li{
+    padding-left: 15px;
+}
+.about{
+    margin-left:25%;
+    margin-right: 25%;
+}
