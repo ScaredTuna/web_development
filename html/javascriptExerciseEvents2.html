@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<!-- Exercise to have text fields to enter details to create a person object, display and edit the person object -->
+
+<html lang="en">
+<head>
+    <script type="text/javascript" src="C:\Users\Admin\Desktop\web_development\javascript\exerciseEvents2.js"></script>
+    <meta charset="UTF-8">
+    <title>Javascript Exercises</title>
+</head>
+<body>
+    <form id="newPerson">
+        <h4>Create new person</h4>
+        Name:<br> <input type="text" name="personName"><br>
+        Age: <br> <input type="text" name="age"><br>
+        Job: <br> <input type="text" name="job"><br><br>
+        <input type="reset" onclick="maker()" value="Submit">
+    </form>
+    <br><br>
+    <input type="button" onclick="outputPerson()" value="Display Person Details">
+    <br><br>
+    <form id="edit">
+        <h4>Edit Person Details</h4>
+        <br> <input type="text" name="newName">
+        <input type="reset" onclick="editName()" value="Edit Name">
+        <br> <input type="text" name="newAge">
+        <input type="reset" onclick="editAge()" value="Edit Age">
+        <br> <input type="text" name="newJob">
+        <input type="reset" onclick="editJob()" value="Edit Job">
+    </form>
+    <br>
+    <h4>Person Details</h4>
+    <p id="person"></p>
+</body>
+</html>

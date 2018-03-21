@@ -1,4 +1,6 @@
+
 //Write a program that outputs numbers 1-100 but replaces multiples of 3 with Fizz and 5 with Buzz (Both with FizzBuzz)
+
 var x = 1;
 document.write(x.toString());
 x++;
